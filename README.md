@@ -14,3 +14,18 @@
     <script src="script.js"></script>
 </body>
 </html>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 20px;
+}
