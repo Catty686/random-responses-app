@@ -29,16 +29,4 @@ p {
     font-size: 20px;
     margin-top: 20px;
 }
-const responses = [
-    "Yes",
-    "No",
-    "Maybe",
-    "Ask again later",
-    "Definitely",
-    "I don't think so"
-];
 
-document.getElementById('responseButton').addEventListener('click', () => {
-    const randomResponse = responses[Math.floor(Math.random() * responses.length)];
-    document.getElementById('response').textContent = randomResponse;
-});
